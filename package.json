@@ -5,13 +5,19 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "express",
+    "postgresql",
+    "crud",
+    "api",
+    "nodejs"
+  ],
+  "author": "Ibrahim Nurudeen Shehu",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "nodemon": "^3.1.10",
     "pg": "^8.16.2"

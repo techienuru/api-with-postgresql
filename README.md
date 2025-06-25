@@ -33,7 +33,7 @@ This project is a simple Express.js API that connects to a PostgreSQL database a
 
 3. **Configure the database connection:**
 
-   - Edit `config/dbConn.js` with your PostgreSQL credentials.
+   - Edit `server.js` with your PostgreSQL credentials.
 
 4. **Start the server:**
    ```sh
@@ -172,5 +172,5 @@ curl -X POST http://localhost:3500/users -H "Content-Type: application/json" -d 
 
 ## Notes
 
-- Ensure PostgreSQL is running and accessible with the credentials in `config/dbConn.js`.
+- Ensure PostgreSQL is running and accessible with the credentials in `server.js`.
 - The server will not start if the database connection fails.
